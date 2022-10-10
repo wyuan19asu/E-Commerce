@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>E-Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <section id="landingpg">
-
+    <section id="landingPg">
         <nav class="nav-bar">
             <div class="nav__cont">
                 <img src="./assets/Library.svg" alt="libraryLogo" class="logo--img">
@@ -40,17 +42,171 @@
                     <h1 class="first__header">
                         America's most awarded online library platform
                     </h1>
-                    <h2>
+                    <h2 class="section__title">
                         Find your dream book with <span class="purple">Library</span>
                     </h2>
                     <button class="browse__button">Browse Books</button>
                 </div>
-                <figure class="booksImg__wrapper">
-                    <img src="./assets/Undraw_Books.svg" alt="undrawBook-img" class="booksImg">
+                <figure class="mainImg__wrapper">
+                    <img src="./assets/Undraw_Books.svg" alt="undrawBook-img" class="mainImg">
                 </figure>
             </div>
         </header>
     </section>
+    <main>
+        <section id="highlights">
+            <div class="container">
+                <div class="row">
+                    <h2>
+                        Why choose <span class="purple">Library</span>
+                    </h2>
+                    <div class="highlight__wrapper">
+                        <div class="highlight">
+                            <div class="highlight__img">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <h3 class="highlight__subtitle">
+                                Easy and Quick
+                            </h3>
+                            <div class="highlight__desc">
+                                Get access to the book you purchased online instantly.
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight__img">
+                                <i class="fa-solid fa-book"></i>
+                            </div>
+                            <h3 class="highlight__subtitle">
+                                10,000+ Books
+                            </h3>
+                            <div class="highlight__desc">
+                                Library has books in all your favorite categories.
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight__img">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <h3 class="highlight__subtitle">
+                                Affordable
+                            </h3>
+                            <div class="highlight__desc">
+                                Get your hands on popular books for as little as $10.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section__title">
+                        Featured <span class="purple">Books</span>
+                    </h2>
+                    <div class="books">
+                        <div class="book">
+                            <figure class="book__img--wrapper">
+                                <img src="./assets/crack the coding interview.png" alt="codingInterviewBook"
+                                    class="book__img codingBook">
+                            </figure>
+                            <div class="book__title">
+                                Crack the Coding Interview
+                            </div>
+                            <div class="book__ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="book__price">
+                                <span class="book__price--normal">$59.99</span> $14.95
+                            </div>
+                        </div>
+                        <div class="book">
+                            <figure class="book__img--wrapper">
+                                <img src="./assets/david goggins.jpeg" alt="can'tHurtMeBook" class="book__img">
+                            </figure>
+                            <div class="book__title">
+                                Can't Hurt Me
+                            </div>
+                            <div class="book__ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="book__price">
+                                <span class="book__price--normal">$59.99</span> $14.95
+                            </div>
+                        </div>
+                        <div class="book">
+                            <figure class="book__img--wrapper">
+                                <img src="./assets/deep work.jpeg" alt="deepWorkbook" class="book__img">
+                            </figure>
+                            <div class="book__title">
+                                Deep Work
+                            </div>
+                            <div class="book__ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="book__price">
+                                <span class="book__price--normal">$59.99</span> $14.95
+                            </div>
+                        </div>
+                        <div class="book">
+                            <figure class="book__img--wrapper">
+                                <img src="./assets/atomic habits.jpg" alt="codingInterviewBook" class="book__img">
+                            </figure>
+                            <div class="book__title">
+                                Atomic Habits
+                            </div>
+                            <div class="book__ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="book__price">
+                                <span class="book__price--normal">$59.99</span> $14.95
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recent">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section__title">
+                        Recent <span class="purple">Books</span>
+                    </h2>
+                    <div class="highlight__wrapper">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="explore">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section__title">
+                        Explore more <span class="purple">Books</span>
+                    </h2>
+                    <div class="highlight__wrapper">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
