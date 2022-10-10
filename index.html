@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./index.js"></script>
 </head>
 
 <body>
@@ -37,9 +38,27 @@
                     </li>
                 </ul>
             </div>
-            <button class="btn__menu">
+            <button class="btn__menu" onclick="openMenu()">
                 <i class="fa-solid fa-bars"></i>
             </button>
+            <div class="menu__backdrop">
+                <div class="btn__menu btn__menu--close">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list">
+                            <a href="#" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#features" class="menu__link">Books</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="menu__link no__cursor">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
         <!-- HEADER -->
